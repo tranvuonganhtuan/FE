@@ -1,4 +1,57 @@
-h1 {
-  color: rgb(202, 195, 195);
-  background-color: yellow;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; // canh giữa
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    .navigation{
+        display: flex;
+        align-items: center;
+        div{
+            margin-left: 20px;
+        }
+        .home{
+            border-radius: 10px;
+            background: gray;
+            color: white;
+            padding: 20px;
+        }
+    }
+    img{
+        width: 100px;
+    }
+}
+.main{
+    .blue{
+        width: 200px;
+        height:200px;
+        background: blue;
+    }
+    .red{
+        width: 200px;
+        height:280px;
+        background: red;
+    }
+    .green{
+        width: 240px;
+        height:260px;
+        background:green;
+    }
+    .line{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .line2{
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+    }
+    .line3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .red{
+            margin-left: 200px;
+        }
+    }
 }

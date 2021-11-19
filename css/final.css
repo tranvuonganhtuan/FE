@@ -1,0 +1,126 @@
+header {
+	width: 97%;
+	height: 200px;
+	margin: 20px 20px 0;
+	background-image: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header h1 {
+	display: flex;
+	padding-top: 20px;
+	color: white;
+	justify-content: center;
+}
+
+header .choose {
+	display: flex;
+	padding-top: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+header .choose1 {
+	display: flex;
+	width: 150px;
+	height: 50px;
+	margin-right: 100px;
+	color: black;
+	border: 20px;
+	background: white;
+	justify-content: center;
+	align-items: center;
+}
+
+header .choose2 {
+	display: flex;
+	width: 150px;
+	height: 50px;
+	margin-right: 100px;
+	color: black;
+	border: 20px;
+	background: white;
+	justify-content: center;
+	align-items: center;
+}
+
+header .choose3 {
+	display: flex;
+	width: 150px;
+	height: 50px;
+	margin-right: 100px;
+	color: black;
+	border: 20px;
+	background: white;
+	justify-content: center;
+	align-items: center;
+}
+
+header .choose4 {
+	display: flex;
+	width: 150px;
+	height: 50px;
+	color: black;
+	border: 20px;
+	background: white;
+	justify-content: center;
+	align-items: center;
+}
+
+.body {
+	display: flex;
+	margin-left: 20px;
+}
+
+.body .img {
+	width: 400px;
+	margin-top: 0;
+	background: green;
+}
+
+.body .img .img1 {
+	width: 80%;
+	height: 150px;
+	margin: 10px auto;
+	border: 3px solid black;
+}
+
+.body .img .img1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.body .body1 h2 {
+	margin: 10px;
+}
+
+.body .body1 p {
+	margin-left: 10px;
+}
+
+.body .body1 .body2 {
+	margin: 50px;
+}
+
+.body .body1 .body2 .th1 {
+	width: 10%;
+}
+
+.body .body1 .body2 th {
+	text-align: center;
+}
+
+.body .body1 .body2 table,
+.body .body1 .body2 th,
+.body .body1 .body2 td {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid white;
+}
+
+.body .body1 .body2 th,
+.body .body1 .body2 td {
+	background-color: #94d4d4;
+}
+

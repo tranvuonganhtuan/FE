@@ -1,0 +1,36 @@
+.main{
+    background: black;
+    color: white;
+    width: 700px;
+    padding: 20px;
+    display: flex;
+    .tittle{
+        h2{
+            font-size: 30px;
+            border-bottom: 1px solid white;
+            margin-bottom: 20px;
+            padding-bottom: 20px;  
+        }
+    }
+    .about{
+        width: 60%;
+        margin-right: 40px ;
+    }
+    .quick-link{
+        width: 40%;
+        .navigation{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ul{
+                li{
+                    a{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    
+
+}
