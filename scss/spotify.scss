@@ -1,0 +1,44 @@
+header{
+    background: #333;
+    a{
+        color: white;
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    .logo{
+        a{
+            font-size: 24px;
+        }
+    }
+    nav{
+        ul{
+            display: flex;
+            li{
+                color: white;
+                margin-left: 20px;
+                a{
+                  font-size: 18px;
+                  transition: 0.3s;
+                  &:hover{
+                      color: #1ed760;
+                  }  
+                }
+            }
+        }
+    }
+}
+
+.banner{
+    height: 500px;
+    // background-image: url(../images/thiennhien.jpg);
+    // background-repeat: no-repeat;
+    // // background-position: center;
+    // background-size: contain;
+    // // contain nằm trong thẻ div ko tràn ra ngoài
+    // //cover kéo phủ hết thẻ div
+    background: url(../images/thiennhien.jpg) no-repeat top center/cover;
+
+
+}

@@ -1,0 +1,99 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 10px;
+    a{
+        color: white;
+    }
+    .logo{
+        display: flex;
+        
+        img{
+            width: 100px;
+        }
+        h2{
+            color: white;
+            margin-left: 25px;
+            margin-top: 20px;
+            width: 100%;
+        }        
+        input{
+            margin-top: 20px;
+            height: 40px;
+            width: 1000px;
+        }
+    }
+    nav{
+        ul{
+            display: flex;
+            li{
+                margin-left: 20px;
+                position: relative;
+                &:hover{
+                    &::after{
+                        width: 100%;
+                    }
+                }
+                margin-left: 20px;
+                &::after{
+                    content: '';
+                    width: 0;
+                    height: 2px;
+                    background: white;
+                    display: block;
+                    transition: 0.5s;
+                    position: absolute;
+                } 
+                i{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+// .carousel-inner{
+//     .carousel-item{
+//         img{
+//             filter: grayscale(100%);
+//             -webkit-filter: grayscale(100%);
+//             -moz-filter: grayscale(100%) ;
+//             -ms-filter: grayscale(100%);
+//             -o-filter: grayscale(100%)
+//         }
+//     }
+// }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.carousel-indicators .active{
+    background-color: black;
+} 
+.carousel-indicators{
+    background-color: wheat;
+}
+.carousel-inner{
+    .carousel-item{
+        h3{
+            color: black;
+        }
+        p{
+            color: black;
+        }
+    }
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+}

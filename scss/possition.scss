@@ -1,0 +1,83 @@
+.rectangle{
+    width: 500px;
+    height: 600px;
+    background: red;
+    // position: absolute;
+    // // absolute di chuyển phần tử tới vị trí tiếp theo, phần tử còn lại dời về vị trí phần tử ban đầu đã di chuyển
+    // //position: chúng ta có thể sử dụng di chuyển như top, left, right, bottom
+    // left: 20px;
+    // top: 50px;
+    position: relative;
+    top: 50px;
+    .square{
+        width: 200px;
+        height: 100px;
+        background: goldenrod;
+        position: absolute;
+        // top, left, right, bottom phụ thuộc vào thằng cha
+        bottom: 0;
+        right: 0;
+        .circle{
+            //tạo hình trong = hình vuông + border-raidus: 50%
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: black;
+            position: absolute;
+            
+            bottom: 0;
+        }
+    }
+}
+//position: absolute tách 1 phần tử, kiểm tra thằng cho gần nhất thuộc tính position và sẽ phụ thuộc vào thằng đó
+
+.rectangle{
+    width: 300px;
+    height: 200px;
+    background: red;
+    position: relative;
+    .rectangle_green{
+        width: 100px;
+        height: 70px;
+        background: green;
+        position: absolute;
+        .rectangle_yellow{
+            width: 5px;
+            height: 5px;
+            background: yellow;
+            position: absolute;
+        }
+        .rectangle_black{
+            width: 5px;
+            height: 5px;
+            background: black;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+    }
+    .rectangle_blackk2
+    {
+        width: 20px;
+        height: 20px;
+        background: black;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+// .article{
+//     width: 600px;
+//     position: relative;
+//     img{
+//         width: 100%;
+//     }
+//     h2{
+//         position: absolute;
+//         bottom: 0;
+//         padding: 10px;
+//         color: white;
+//     }
+// }

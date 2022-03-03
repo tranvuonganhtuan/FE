@@ -1,0 +1,93 @@
+header {
+	display: flex;
+	padding: 10px;
+	background: black;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header a {
+	color: white;
+}
+
+header .logo {
+	display: flex;
+}
+
+header .logo img {
+	width: 100px;
+}
+
+header .logo h2 {
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 25px;
+	color: white;
+}
+
+header .logo input {
+	width: 1000px;
+	height: 40px;
+	margin-top: 20px;
+}
+
+header nav ul {
+	display: flex;
+}
+
+header nav ul li {
+	position: relative;
+	margin-left: 20px;
+	margin-left: 20px;
+}
+
+header nav ul li:hover::after {
+	width: 100%;
+}
+
+header nav ul li::after {
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 2px;
+	content: '';
+	transition: .5s;
+	background: white;
+}
+
+header nav ul li i {
+	margin-right: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 50%;
+	outline: black;
+	background-color: rgba(0, 0, 0, .3);
+	background-size: 100%, 100%;
+}
+
+.carousel-indicators .active {
+	background-color: black;
+}
+
+.carousel-indicators {
+	background-color: wheat;
+}
+
+.carousel-inner .carousel-item h3 {
+	color: black;
+}
+
+.carousel-inner .carousel-item p {
+	color: black;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+}
+
