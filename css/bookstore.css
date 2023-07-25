@@ -12,6 +12,7 @@ header a {
 
 header .logo {
 	display: flex;
+	margin-left: 100px;
 }
 
 header .logo img {
@@ -19,16 +20,14 @@ header .logo img {
 }
 
 header .logo h2 {
-	width: 100%;
+	width: 160px;
 	margin-top: 20px;
 	margin-left: 25px;
 	color: white;
 }
 
-header .logo input {
-	width: 1000px;
-	height: 40px;
-	margin-top: 20px;
+header nav {
+	margin-right: 100px;
 }
 
 header nav ul {
@@ -37,7 +36,6 @@ header nav ul {
 
 header nav ul li {
 	position: relative;
-	margin-left: 20px;
 	margin-left: 20px;
 }
 
@@ -84,10 +82,5 @@ header nav ul li i {
 
 .carousel-inner .carousel-item p {
 	color: black;
-}
-
-.nav {
-	display: flex;
-	justify-content: center;
 }
 

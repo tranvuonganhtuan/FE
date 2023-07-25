@@ -9,7 +9,7 @@ header{
     }
     .logo{
         display: flex;
-        
+        margin-left: 100px;
         img{
             width: 100px;
         }
@@ -17,19 +17,16 @@ header{
             color: white;
             margin-left: 25px;
             margin-top: 20px;
-            width: 100%;
-        }        
-        input{
-            margin-top: 20px;
-            height: 40px;
-            width: 1000px;
-        }
+            width: 160px;
+        }            
     }
+    
     nav{
+        margin-right: 100px;
         ul{
             display: flex;
             li{
-                margin-left: 20px;
+
                 position: relative;
                 &:hover{
                     &::after{
@@ -54,17 +51,7 @@ header{
     }
 }
 
-// .carousel-inner{
-//     .carousel-item{
-//         img{
-//             filter: grayscale(100%);
-//             -webkit-filter: grayscale(100%);
-//             -moz-filter: grayscale(100%) ;
-//             -ms-filter: grayscale(100%);
-//             -o-filter: grayscale(100%)
-//         }
-//     }
-// }
+
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 100px;
@@ -91,9 +78,4 @@ header{
             color: black;
         }
     }
-}
-.nav{
-    display: flex;
-    justify-content: center;
-    // align-items: center;
 }

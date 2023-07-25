@@ -1,0 +1,73 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 10px;
+}
+header a {
+  color: white;
+}
+header .logo {
+  display: flex;
+  margin-left: 100px;
+}
+header .logo img {
+  width: 100px;
+}
+header .logo h2 {
+  color: white;
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 160px;
+}
+header nav {
+  margin-right: 100px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  position: relative;
+  margin-left: 20px;
+}
+header nav ul li:hover::after {
+  width: 100%;
+}
+header nav ul li::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: white;
+  display: block;
+  transition: 0.5s;
+  position: absolute;
+}
+header nav ul li i {
+  margin-right: 10px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+}
+
+.carousel-indicators {
+  background-color: wheat;
+}
+
+.carousel-inner .carousel-item h3 {
+  color: black;
+}
+.carousel-inner .carousel-item p {
+  color: black;
+}
